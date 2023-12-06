@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css" media="all">
+      body{
+        color: darkviolet;
+        background-color: lightpink;
+      }
+      
+      div{
+        background-color: yellow;
+        color: red;
+        width: 500px;
+        height: 450px;
+        padding: 20px;
+        border: 3px dotted black;
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxEKEGBdi64P9X0QvZzXkmgHSz7VlJD1Io5PajL321NQ&s');
+        background-repeat: no-repeat;
+        
+        /*background origin*/
+        background-origin: padding-box;
+        background-origin: content-box; /* the last updated origin will reflect in output */
+        background-origin: border-box; /* the last updated origin will reflect in output */
+      }
+    </style>
+  </head>
+  <body>
+      <!--BACKGROUND ORIGIN
+      padding-box ===== the image start fixing from padding itself
+      content-box  ===== the image start fixing with the contents
+      border-box  ====== the image start fixing from border itself
+      -->
+    
+      <h3>BACKGROUND ORIGIN</h3>
+      <div>
+        <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+        lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+        lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+        lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+        lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+        lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+        lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+        </p>
+      </div>
+  </body>
+</html>
